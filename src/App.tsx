@@ -21,9 +21,9 @@ interface Obstacle {
 const GRAVITY = 0.6
 const JUMP_STRENGTH = -10
 const OBSTACLE_SPEED = 3
-const OBSTACLE_WIDTH = 60
+const OBSTACLE_WIDTH = 50
 // Gap size is now dynamic per obstacle
-const SPAWN_INTERVAL = 250
+const SPAWN_INTERVAL = 280
 
 function App() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
