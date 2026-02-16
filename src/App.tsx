@@ -18,7 +18,7 @@ interface Obstacle {
   passed: boolean
 }
 
-const GRAVITY = 0.5
+const GRAVITY = 0.6
 const JUMP_STRENGTH = -10
 const OBSTACLE_SPEED = 3
 const OBSTACLE_WIDTH = 60
@@ -366,7 +366,7 @@ function App() {
       
       {gameState === 'gameover' && (
         <div className="overlay game-over">
-          <h2 className="game-over-title">Game Over</h2>
+          <h2 className="game-over-title">Game Over. La papaya</h2>
           <p className="final-score">Puntuación: {score}</p>
           <button className="restart-button" onClick={(e) => { e.stopPropagation(); restartGame(); }}>
             Jugar de nuevo
