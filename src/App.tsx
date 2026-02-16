@@ -18,7 +18,7 @@ interface Obstacle {
   passed: boolean
 }
 
-const GRAVITY = 0.6
+const GRAVITY = 0.8
 const JUMP_STRENGTH = -10
 const OBSTACLE_SPEED = 3
 const OBSTACLE_WIDTH = 50
